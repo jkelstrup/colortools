@@ -53,6 +53,11 @@ export default function createColor(input) {
     },
     {
       src: source
+    },
+    {
+      toString: function() {
+        return hex
+      }
     }
   )
 
