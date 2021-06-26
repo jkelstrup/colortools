@@ -1,7 +1,7 @@
 {
   "name": "paletto-color-tools",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A set of tools to handle RGB, HSL and HEX colors.",
   "source": "src/index.js",
   "exports": "./dist/colortools.modern.js",
