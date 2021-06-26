@@ -1,0 +1,26 @@
+{
+  "name": "colortools",
+  "version": "0.1.0",
+  "description": "A set of tools to handle RGB, HSL and HEX colors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkelstrup/colortools.git"
+  },
+  "keywords": [
+    "color",
+    "conversion",
+    "rgb",
+    "hex",
+    "hsl"
+  ],
+  "author": "Jonas Kelstrup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkelstrup/colortools/issues"
+  },
+  "homepage": "https://github.com/jkelstrup/colortools#readme"
+}
