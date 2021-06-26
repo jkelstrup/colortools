@@ -1,9 +1,16 @@
 {
-  "name": "@jkelstrup/colortools",
-  "version": "0.1.0",
+  "name": "paletto-color-tools",
+  "type": "module",
+  "version": "0.0.1",
   "description": "A set of tools to handle RGB, HSL and HEX colors.",
-  "main": "index.js",
+  "source": "src/index.js",
+  "exports": "./dist/colortools.modern.js",
+  "main": "./dist/colortools.cjs",
+  "module": "./dist/colortools.module.js",
+  "unpkg": "./dist/colortools.umd.js",
   "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/jkelstrup/colortools/issues"
   },
-  "homepage": "https://github.com/jkelstrup/colortools#readme"
+  "homepage": "https://github.com/jkelstrup/colortools#readme",
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  }
 }
