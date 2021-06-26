@@ -40,4 +40,24 @@ const colorUtils = {
   step
 }
 
+export { adjust };
+export { calcContrast };
+export { calcLum };
+export { createColor };
+export { darken };
+export { hexToRgb };
+export { hslToRgb };
+export { invert };
+export { isValidHex };
+export { isValidHsl };
+export { isValidRgb };
+export { lighten };
+export { matchLum };
+export { redefine };
+export { rgbToHex };
+export { rgbToHsl };
+export { rgbToRgb };
+export { scale };
+export { step };
+
 export default colorUtils;
