@@ -1,5 +1,5 @@
 {
-  "name": "colortools",
+  "name": "@jkelstrup/colortools",
   "version": "0.1.0",
   "description": "A set of tools to handle RGB, HSL and HEX colors.",
   "main": "index.js",
@@ -14,8 +14,8 @@
     "color",
     "conversion",
     "rgb",
-    "hex",
-    "hsl"
+    "hsl",
+    "hex"
   ],
   "author": "Jonas Kelstrup",
   "license": "MIT",
