@@ -18,14 +18,14 @@ export default function matchLum(originalColor,targetLum) {
   else if (newColor.lum < targetLum) { // original lum is DARKER than targetLum, we'll lighten it.
     let counter = 0;
     while (newColor.lum < targetLum && counter < 100) {
-      newColor = adjust(newColor,{lightness: 1})
+      newColor = adjust(newColor,{l: 1})
     }
   }
 
   else if (newColor.lum > targetLum) { // currentLum is BRIGHTER than targetLum, we'll darken it.
     let counter = 0;
     while (newColor.lum > targetLum && counter < 100) {
-      newColor = adjust(newColor,{lightness: -1})
+      newColor = adjust(newColor,{l: -1})
     }
   }
 
