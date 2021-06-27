@@ -15,7 +15,7 @@ export default function adjust(originalColor,change) {
   } else if (change.hasOwnProperty("hue") || change.hasOwnProperty("saturation") || change.hasOwnProperty("lightness")) {
     let {h,s,l} = originalColor;
 
-    h = h + (change.hue || 0) % 360; // Force the change to be -360-360
+    h = (h + (change.hue || 0)) % 360; // Force the change to be -360-360
     if (h < 0) h = 360 - h; // Rotate the color wheel by subtracting negative hue from 360
 
     s = Math.max(Math.min((s + (change.saturation || 0)),100),0); // Force the number to be between 0-100
